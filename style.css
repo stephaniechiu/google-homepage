@@ -10,8 +10,29 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 }
-.body input(type=text) {
-	font-size: 20px;
+
+input {
+	width: 400px;
+	height: 50px;
+	padding: 12px;
+
+	font-size: 10pt;
+	vertical-align: middle;
+	white-space: nowrap;
+
+	border: 1px solid #E7E7E7;
+	-webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+
+    position: relative;
+}
+
+.icon{
+	position: absolute;
+	top: 50%;
+	right: -50px;
+	vertical-align: middle;
 }
 
 .topnav a {
