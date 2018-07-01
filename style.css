@@ -57,6 +57,22 @@ img {
 	cursor: pointer;
 }
 
+.button {
+	background-color: #F4F4F4;
+	color: #757575;
+	border: none;
+	padding: 13px 28px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 10pt;
+	cursor: pointer;
+	display: inline-block;
+	margin-left: 50%;
+	position: relative;
+	top: 240px;
+}
+
 .topnav a {
 	color: #212121;
 	font-size: 13px;
@@ -68,3 +84,10 @@ img {
 .topnav a:hover {
 	text-decoration: underline;
 }
+
+
+
+
+
+
+
