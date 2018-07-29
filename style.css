@@ -1,9 +1,8 @@
-div {
-	 font-family: 'Arial', sans-serif;
-	 font-weight: 300;
+.search {
+	clear: both;
 }
 
-img {
+.search img {
 	padding: 20px 20px;
 	position: relative;
 	top: 200px;
@@ -11,7 +10,33 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 }
-
+.topnav img {
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	float: right;
+	padding-top: 11px ;
+	padding-left: 10px;
+	padding-right: 5px;
+}
+.topnav a {
+	color: #212121;
+	font-size: 13px;
+	font-family: 'Arial', sans-serif;
+	font-weight: 300;
+	padding: 20px 8px;
+	text-decoration: none;
+	position: relative;
+}
+.topnav a:hover {
+	text-decoration: underline;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
 .box {
 	width: 550px;
 	height: 45px;
@@ -44,50 +69,39 @@ img {
     position: relative;
     top: 200px;
 }
-
 .box img {
 	height: 20px;
 	width: auto;
 	padding: 12px;
-
 	position: absolute;
 	right: 0;
 	vertical-align: middle;
-
 	cursor: pointer;
 }
-
+.container {
+	width: 100%;
+	position: relative;
+}
+.floated {
+	width: 48%;
+    top: 220px;
+    float: left;
+    padding: 0.5%;
+}
+.first {
+    text-align: right;
+}
 .button {
 	background-color: #F4F4F4;
 	color: #757575;
 	border: none;
-	padding: 13px 28px;
+	padding: 10px 20px;
 	text-align: center;
 	text-decoration: none;
 	font-weight: 600;
 	font-size: 10pt;
 	cursor: pointer;
-
-	position: relative;
-	left: 50%;
-	right: 50%;
-	transition: translateX(-50%);
-	top: 240px;
-    overflow-y: hidden;
 }
-
-.topnav a {
-	color: #212121;
-	font-size: 13px;
-
-	padding: 20px 8px;
-	text-decoration: none;
-	position: static;
-}
-.topnav a:hover {
-	text-decoration: underline;
-}
-
 .footer {
 	position: absolute;
 	right: 0;
@@ -108,16 +122,3 @@ img {
 .footer a:hover {
 	text-decoration: underline;
 }
-
-.alignLeft {
-	float: left;
-}
-.alignRight {
-	float: right;
-}
-
-
-
-
-
-
